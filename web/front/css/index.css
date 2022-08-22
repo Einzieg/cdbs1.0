@@ -1,0 +1,175 @@
+.color-red {
+    color: #ff0000;
+}
+
+.contener {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.contener_left {
+    float: left;
+    width: 530px;
+    height: 650px;
+    padding-right: 25px;
+}
+
+.header {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+.main {
+    margin-top: 25px;
+}
+
+.main table {
+    width: 515px;
+    margin-left: 15px;
+}
+
+.main tr {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.main tr:nth-last-of-type(2) {
+    margin-left: 50px;
+}
+
+.main tr:nth-last-of-type(1) {
+    margin-left: 100px;
+}
+
+td {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background: url(../images/bg.png) no-repeat;
+    background-position: 0 -30px;
+    margin-left: 15px;
+}
+
+.footer {
+    height: 50px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.footer i {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background: url(../images/bg.png) no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+}
+
+.footer div:nth-of-type(2) i {
+    background-position: 0 -30px;
+}
+
+.footer div:nth-of-type(3) i {
+    background-position: 0 -60px;
+}
+
+.footer div {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contener_right {
+    float: left;
+    width: 570px;
+    height: 650px;
+    background-color: #ffe4c4;
+    padding: 10px 0 0 15px;
+}
+
+.pic_img img {
+    float: left;
+    width: 146px;
+    height: 203px;
+    margin-right: 25px;
+}
+
+.pic_txt {
+    float: left;
+    width: 399px;
+    height: 203px;
+}
+
+.pic_txt ul li {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.pic_txt ul li:nth-of-type(1),
+.pic_txt ul li:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.pic_txt ul li:nth-of-type(1) i {
+    font-weight: 700;
+}
+
+.pic_movies {
+    margin: 35px 0 40px 35px;
+}
+
+.pic_movies ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.pic_count {
+    margin-top: 45px;
+    font-size: 16px;
+}
+
+.pic_count button {
+    width: 125px;
+    height: 35px;
+    margin: 25px 0 0 185px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.pic_count p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    width: 72px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #ff0000;
+    background-color: #fff;
+    color: #ff0000;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.p0 {
+    background-position: 0 0;
+}
+
+.p30 {
+    background-position: 0 -30px;
+}
+
+.p60 {
+    background-position: 0 -60px;
+}
